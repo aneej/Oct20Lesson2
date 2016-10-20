@@ -17,4 +17,11 @@ public class Person {
   public  int getAge() {
       return  age ;
   }
+  //  adding  setter  methods -  Dev R
+  public void setName(String n)  {
+    name = new String(n) ;
+  }
+  public  void setAge(int  a) {
+    age = a ;
+  }
 }
