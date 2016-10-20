@@ -4,7 +4,7 @@ public class Person {
   **/
   // listing attributes
   String name ;
-  int i_age  ;
+  int i_age  ;           // Merge with Dev R  resolved; retained i_age  rather than iage. you should have a underscore between  the  Type and Variable-Name
   String  LastName  ;    // New attribute added  Dev L
   public String getLastName() {
        return lastName  ;
