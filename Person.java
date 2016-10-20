@@ -4,7 +4,7 @@ public class Person {
   **/
   // listing attributes
   String name ;
-  int age  ;
+  int i_age  ;
   String  LastName  ;    // New attribute added  Dev L
   public String getLastName() {
        return lastName  ;
@@ -15,13 +15,13 @@ public class Person {
       return  name ;
   }
   public  int getAge() {
-      return  age ;
+      return  i_age ;
   }
   //  adding  setter  methods -  Dev R
   public void setName(String n)  {
     name = new String(n) ;
   }
   public  void setAge(int  a) {
-    age = a ;
+    i_age = a ;
   }
 }
