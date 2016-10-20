@@ -5,6 +5,10 @@ public class Person {
   // listing attributes
   String name ;
   int age  ;
+  String  LastName  ;    // New attribute added  Dev L
+  public String getLastName() {
+       return lastName  ;
+  }
 
   //  listing methods
   public String getName() {
